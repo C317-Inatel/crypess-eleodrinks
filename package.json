@@ -1,0 +1,24 @@
+{
+  "name": "cypress-elodrinks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open:chrome": "cypress open --browser chrome",
+    "cy:run:chrome": "cypress run --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress-elodrinks": "file:.",
+    "cypress-real-events": "^1.14.0"
+  },
+  "devDependencies": {
+    "cypress": "14.4.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-multi-reporters": "^2.0.5",
+    "cypress-plugin-tab": "^1.0.5",
+    "mocha-junit-reporter": "^2.2.1"
+  }
+}
